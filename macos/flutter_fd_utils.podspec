@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_fd_utils'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Reports the current process file descriptor (FD) details on macOS.'
   s.description      = <<-DESC
 A Flutter plugin that reports the current process file descriptor (FD) details on macOS.

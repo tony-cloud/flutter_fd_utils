@@ -54,10 +54,7 @@ abstract class FlutterFdUtilsPlatform extends PlatformInterface {
   }
 
   /// Attempts to update the soft RLIMIT_NOFILE (nofile) limit.
-  Future<NofileLimitResult> setNofileSoftLimit(
-    int softLimit, {
-    bool clampToHardLimit = true,
-  }) {
+  Future<NofileLimitResult> setNofileSoftLimit(int softLimit, {bool clampToHardLimit = true}) {
     throw UnimplementedError('setNofileSoftLimit() has not been implemented.');
   }
 }

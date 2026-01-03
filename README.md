@@ -1,6 +1,6 @@
 # flutter_fd_utils
 
-A Flutter plugin that returns a human-readable report of the current process file descriptors (FDs) on iOS, macOS, and Linux.
+A Flutter plugin that returns a human-readable report of the current process file descriptors (FDs) on iOS, macOS, Linux, and Android.
 
 This is primarily intended for debugging issues like "too many open files".
 
@@ -17,7 +17,8 @@ This is primarily intended for debugging issues like "too many open files".
 - iOS: ✅
 - macOS: ✅
 - Linux: ✅ (via `/proc/self/fd` inspection and `getrlimit`)
-- Android / web: not implemented (calls may throw `MissingPluginException`).
+- Android: ✅ (reports via `/proc/self/fd`; `setNofileSoftLimit` may return EPERM on non-root/system apps)
+- Web: not implemented (calls may throw `MissingPluginException`).
 
 ## Usage
 
