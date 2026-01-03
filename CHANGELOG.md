@@ -1,3 +1,4 @@
-## 0.0.1
+## 0.1.0
 
-* TODO: Describe initial release.
+* Add macOS and Linux platform implementations alongside iOS.
+* Expose file descriptor report, structured list, and RLIMIT_NOFILE helpers on desktop.

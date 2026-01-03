@@ -4,10 +4,10 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_fd_utils'
-  s.version          = '0.0.1'
+  s.version          = '0.1.0'
   s.summary          = 'Reports the current process file descriptor (FD) details on iOS.'
   s.description      = <<-DESC
-An iOS-only Flutter plugin that reports the current process file descriptor (FD) details.
+A Flutter plugin that reports the current process file descriptor (FD) details.
 The implementation uses libproc (proc_pidinfo/proc_pidfdpath) when available.
                        DESC
   s.homepage         = 'https://github.com/tony-cloud/flutter_fd_utils'
