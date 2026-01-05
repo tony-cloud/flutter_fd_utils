@@ -8,5 +8,5 @@ import Foundation
 import flutter_fd_utils
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  FlutterFdUtilsPlugin.register(with: registry.registrar(forPlugin: "FlutterFdUtilsPlugin"))
+  FlutterFdUtilsPluginMac.register(with: registry.registrar(forPlugin: "FlutterFdUtilsPluginMac"))
 }

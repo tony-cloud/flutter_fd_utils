@@ -41,7 +41,7 @@ flutter:
       ios:
         pluginClass: FlutterFdUtilsPlugin
       macos:
-        pluginClass: FlutterFdUtilsPlugin
+        pluginClass: FlutterFdUtilsPluginMac
       linux:
         pluginClass: FlutterFdUtilsPlugin
 
