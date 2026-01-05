@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_fd_utils (0.1.0):
+  - flutter_fd_utils (0.2.0):
     - Flutter
   - integration_test (0.0.1):
     - Flutter
@@ -20,7 +20,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
-  flutter_fd_utils: 350108f2f5c60b474e6c2641b17e3d9517ae8902
+  flutter_fd_utils: 37514166d876f5c71b0d1e85d6d27fb92038c364
   integration_test: 4a889634ef21a45d28d50d622cf412dc6d9f586e
 
 PODFILE CHECKSUM: 3c63482e143d1b91d2d2560aee9fb04ecc74ac7e

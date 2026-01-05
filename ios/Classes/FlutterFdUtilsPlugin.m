@@ -6,12 +6,12 @@
 #import <string.h>
 #import <sys/resource.h>
 
-@implementation FlutterFdUtilsPlugin
+@implementation FlutterFdUtilsPluginIOS
 
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar> *)registrar {
   FlutterMethodChannel *channel =
       [FlutterMethodChannel methodChannelWithName:@"flutter_fd_utils" binaryMessenger:[registrar messenger]];
-  FlutterFdUtilsPlugin *instance = [[FlutterFdUtilsPlugin alloc] init];
+  FlutterFdUtilsPluginIOS *instance = [[FlutterFdUtilsPluginIOS alloc] init];
   [registrar addMethodCallDelegate:instance channel:channel];
 }
 

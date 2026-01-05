@@ -39,7 +39,7 @@ flutter:
         package: org.tonycloud.flutter_fd_utils
         pluginClass: FlutterFdUtilsPlugin
       ios:
-        pluginClass: FlutterFdUtilsPlugin
+        pluginClass: FlutterFdUtilsPluginIOS
       macos:
         pluginClass: FlutterFdUtilsPluginMac
       linux:
